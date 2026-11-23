@@ -393,3 +393,4 @@ body{color:#000}
 .hp-links b{font-size:16px}.hp-links span{font-size:14px;opacity:.75}
 @media (max-width:640px){.hp-links ul{grid-template-columns:1fr}}
 .panel,.rows a,.row-title{min-width:0}
+.hp-band{padding-bottom:48px}
