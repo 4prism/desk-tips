@@ -394,3 +394,5 @@ body{color:#000}
 @media (max-width:640px){.hp-links ul{grid-template-columns:1fr}}
 .panel,.rows a,.row-title{min-width:0}
 .hp-band{padding-bottom:48px}
+.with-side>*,.post,.prose{min-width:0}
+.prose th,.prose td{overflow-wrap:normal;word-break:keep-all}
