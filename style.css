@@ -412,3 +412,4 @@ body{color:#000}
 .care-link{color:var(--teal-d);font-size:15px;font-weight:600}
 @media (max-width:640px){.care-box{padding:22px 18px 20px}.care-q{font-size:19px}.care-list li{font-size:15.5px}}
 @media print{.care-box{display:none!important}}
+.care-point{margin:-6px 0 18px;padding:12px 16px;border-radius:10px;background:var(--teal);color:#fff;font-weight:700;font-size:16.5px;line-height:1.55}
