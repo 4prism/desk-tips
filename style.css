@@ -96,6 +96,7 @@ img{max-width:100%;display:block}
 .card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:box-shadow .2s,transform .2s}
 .card:hover{box-shadow:0 14px 30px rgba(10,16,48,.09);transform:translateY(-2px)}
 .card .cover{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;background:var(--soft);border-bottom:1px solid var(--line)}
+.card .cover.fit,.cover.fit,.fimg.fit{object-fit:contain;object-position:center;padding:10px}
 .cover-blank{display:flex!important;flex-direction:column;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,color-mix(in srgb,var(--c) 14%,#fff),color-mix(in srgb,var(--c) 4%,#fff))!important;color:var(--c)}
 .cover-blank span{font-size:34px;line-height:1}
 .cover-blank b{font-size:15px}
@@ -358,6 +359,7 @@ img{max-width:100%;display:block}
 .sec-head h2{font-size:23px}
 .quick-grid,.grid.cards,.grid.cards.three,.two,.res-grid,.contact-grid,.steps{grid-template-columns:1fr}
 .fgrid,.fgrid.small{grid-template-columns:1fr 1fr;gap:12px}
+.fgrid.light:not(.small){grid-template-columns:1fr}
 .fcard b{font-size:14.5px;padding:12px 12px 4px}
 .fcard span{display:none}
 .fcard em{padding:0 12px 12px}
